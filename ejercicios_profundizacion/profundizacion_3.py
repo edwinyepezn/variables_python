@@ -38,3 +38,7 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+nombre = str(input('Ingrese su nombre completo: '))
+print('A continuacion vamos a imprimir todas las letras minusculas: ',nombre.lower())
+print('A continuacion vamos a imprimir su nombre en mayusculas: ',nombre.upper())
+print('A continuacion vamos a imprimir solo la primera letra en mayuscula', nombre.capitalize())

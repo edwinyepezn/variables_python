@@ -1,7 +1,7 @@
 # Tipos de variables [Python]
 # Ejercicios de práctica
 
-# Autor: Inove Coding School
+# Autor: Edwin Yépez
 # Version: 2.0
 
 # IMPORTANTE: NO borrar los comentarios
@@ -17,8 +17,11 @@ numero_2 = 7
 # Almacenar el valor de la suma en una variable
 # ej:
 # operacion = .....
-
+suma = numero_1 + numero_2
 # Imprimir en pantalla el resultado de la suma
 # print(....)
-
+print('El resultado de la suma es: ' ,suma)
 # Repita el procedimiento para realizar la resta
+resta = numero_1 - numero_2
+print('El resultado de la resta es: ' , resta)
+

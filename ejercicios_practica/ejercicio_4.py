@@ -1,7 +1,8 @@
 # Tipos de variables [Python]
 # Ejercicios de práctica
 
-# Autor: Inove Coding School
+# Autor: Edwin Yepez
+
 # Version: 2.0
 
 # IMPORTANTE: NO borrar los comentarios
@@ -11,6 +12,9 @@
 
 # Ingrese tres palabras y arme un acrónimo con ellas
 # Si desea puede modificar el código para ingresar más palabras
+import ossaudiodev
+
+
 print('Ingrese palabra 1:')
 palabra_1 = str(input())
 
@@ -23,3 +27,7 @@ palabra_3 = str(input())
 # De cada palabra debe tomar la primera letra y armar el acrónimo
 # Ejemplo: Alumbrado, barrido y limpieza --> ABL
 # Imprimir el resultado en pantalla
+primera_letra1 = palabra_1[0]
+primera_letra2 = palabra_2[0]
+primera_letra3 = palabra_3[0]
+print(primera_letra1 + primera_letra2 + primera_letra3)
